@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 id="calbody">Simple Calculator</h1>
+        <div class="con1">
+            <p>
+                <label for="" id="output"></label>
+            </p>
+            <div class="character">
+                <div class="eye"></div>
+                <div class="eye1"></div>
+                <img src="Body.png" alt="" class="cbody" width="465px">
+            </div>
+        </div>
+        <div class="calbody">
+            <div>
+                <input type="number" id="num1">
+                <select name="operator" id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="*">*</option>
+                    <option value="?">??</option>
+                </select>
+                <input type="number" id="num2">
+                <div>
+                    <p></p>
+                </div>
+                <div>
+                    <button onclick="cal()">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+

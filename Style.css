@@ -1,0 +1,182 @@
+.character{transform: translateX(35%);}
+.cbody{position: relative; z-index: -2;}
+.character .eye::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    width: 15px;
+    left: 183px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    z-index: -1;
+    animation: eyemove 20s infinite;
+    animation-timing-function: none;
+}
+.character .eye1::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    width: 15px;
+    left: 245px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    z-index: -1;
+    animation: eye1move 20s infinite;
+    animation-timing-function: none;
+}
+body{
+    background-color: black;
+}
+p{
+    font-size: 40pt;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: red;
+}
+.container{
+    background-color: aqua;
+}
+.calbody{
+    text-align: center;
+    background-color: gray;
+}
+.con1{
+    background-color: gray;
+}
+/* Animation */
+@keyframes eye1move{
+    5%{
+        left: 245px;
+    }
+    10%{
+        left: 255px;
+    }
+    15%{
+        left: 245px;
+    }
+    20%{
+        left: 235px;
+    }
+    25%{
+        top: 40%;
+        left: 245px;
+    }
+    30%{
+        top: 45%;
+        left: 235px;
+    }
+    35%{
+        top: 45%;
+        left: 253px;
+    }
+    40%{
+        top: 45%;
+        left: 235px;
+    }
+    45%{
+        top: 45%;
+        left: 253px;
+    }
+    50%{
+        top: 45%;
+        left: 235px;
+    }
+    55%{
+        top: 45%;
+        left: 253px;
+    }
+    60%{
+        top: 40%;
+        left: 245px;
+    }
+    65%{
+        top: 40%;
+        left: 255px;
+    }
+    70%{
+        top: 40%;
+        left: 235px;
+    }
+    75%{
+        top: 35%;
+        left: 253px;
+    }
+    80%{
+        top: 35%;
+        left: 235px;
+    }
+    85%{
+        top: 40%;
+        left: 245px;
+    }
+}
+@keyframes eyemove{
+    5%{
+        left: 183px;
+    }
+    10%{
+        left: 193px;
+    }
+    15%{
+        left: 183px;
+    }
+    20%{
+        left: 175px;
+    }
+    25%{
+        top: 40%;
+        left: 183px;
+    }
+    30%{
+        top: 45%;
+        left: 175px;
+    }
+    35%{
+        top: 45%;
+        left: 190px;
+    }
+    40%{
+        top: 45%;
+        left: 175px;
+    }
+    45%{
+        top: 45%;
+        left: 190px;
+    }
+    50%{
+        top: 45%;
+        left: 175px;
+    }
+    55%{
+        top: 45%;
+        left: 190px;
+    }
+    60%{
+        top: 40%;
+        left: 183px;
+    }
+    65%{
+        top: 40%;
+        left: 193px;
+    }
+    70%{
+        top: 40%;
+        left: 175px;
+    }
+    75%{
+        top: 35%;
+        left: 190px;
+    }
+    80%{
+        top: 35%;
+        left: 175px;
+    }
+    85%{
+        top: 40%;
+        left: 183px;
+    }
+}
